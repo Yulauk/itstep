@@ -1,0 +1,2 @@
+student = {'Nick':{Python:8,Java:9,C#:10}}
+print(student.value())
