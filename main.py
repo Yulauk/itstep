@@ -1,1 +1,4 @@
 print('Hello User!')
+student = {'Nick':{'Python':'8','Java':'9','C#':'10'}}
+a = zip(student['Nick'].keys(),student['Nick'].values())
+print(list(a))

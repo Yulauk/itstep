@@ -1,2 +1,3 @@
-student = {'Nick':{Python:8,Java:9,C#:10}}
-print(student.value())
+student = {'Nick':{'Python':'8','Java':'9','C#':'10'}}
+a = zip(student['Nick'].keys(),student['Nick'].values())
+print(list(a))
